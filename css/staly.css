@@ -1,7 +1,39 @@
 *{
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
+header{
+    width: 100%;
+    padding: 28px 8%;
+}
 #navbar{
-    list-style: none;}
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+} 
+.logo img{
+    width: 200px;
+}
+#navlist {
+    display: flex; 
+    list-style: none;
+    gap: 40px;
+
+}
+.navintem a { text-decoration: none;
+    color: rgb(88, 88, 88);
+
+@media screen {
+    
+} (max-width:1700px) { 
+#navlist{
+    display: none;
+}
+}
+    
+
+    
