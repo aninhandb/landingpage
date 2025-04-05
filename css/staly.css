@@ -25,15 +25,18 @@ header{
 
 }
 .navintem a { text-decoration: none;
-    color: rgb(88, 88, 88);
+    color: rgb(88, 88, 88);}
 
-@media screen {
-    
-} (max-width:1700px) { 
-#navlist{
-    display: none;
+main { padding: 150px;
+    box-sizing: border-box;
+    font: 
+     sans-serif;
 }
-}
-    
+#HTML{ font-weight: 600;
+    color: rgb(245, 118, 0);
 
-    
+}
+#CSS{
+    font-weight: 600;
+    color: rgb(62, 168, 255);
+}
