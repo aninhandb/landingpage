@@ -27,10 +27,14 @@ header{
 .navintem a { text-decoration: none;
     color: rgb(88, 88, 88);}
 
-main { padding: 150px;
+main {
+
+    padding: 150px;
+    align-items: center;
     box-sizing: border-box;
     font: 
      sans-serif;
+    
 }
 #HTML{ font-weight: 600;
     color: rgb(245, 118, 0);
@@ -39,4 +43,10 @@ main { padding: 150px;
 #CSS{
     font-weight: 600;
     color: rgb(62, 168, 255);
+}
+#JavaScript{
+    color: rgb(199, 150, 28);
+    font-weight: 600;
+
+
 }
